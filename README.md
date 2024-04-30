@@ -2,7 +2,7 @@
 
 ### Problem Description
 
-The Wilcoxon test compares the difference between two paired samples. In this scenario, the paired samples represent measurements taken on the same biological samples. The first set of measurements is conducted by observer A (a human observer), while the second set is conducted by observer B (a computer vision software).
+The Wilcoxon test compares the difference between two paired samples. In this scenario, the paired samples represent measurements taken on the same samples. The first set of measurements is conducted by observer A, while the second set is conducted by observer B.
 
 The null hypothesis (H0) tested by the Wilcoxon test is:
 
@@ -14,14 +14,14 @@ Let's consider a significance level of 0.05. If the p-value is smaller than 0.05
 ### Results
 
 **Values:**
-- Median value for counts by observer A = 21.0
-- Median value for counts by observer B = 22.0
+- Median value for counts by observer A = MD_A
+- Median value for counts by observer B = MD_B
 
 **Tests Results:**
-- p-value = 0.28434
-- Effect size (r) = 0.15452, which is considered small according to Cohen (1988)
+- p-value = p
+- Effect size (r) = r which is considered small according to Cohen (1988)
 
-Since the p-value is greater than 0.05, we fail to reject the null hypothesis. Therefore, there is no significant difference between the paired samples.
+Since the p-value is greater than 0.05, we fail to reject the null hypothesis. Therefore, there is no significant difference between the paired samples. ( Or Since the p-value is smaller than 0.05 we reject the null hypothesis. Therefore, there is a significant difference between the paired samples )
 
 ### Source Code
 
