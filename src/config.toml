@@ -1,0 +1,6 @@
+[files]
+data_filpath = "../data/Project .xlsx"
+columns = ['Sementes germinadas real','Sementes germinadas software ']
+
+[statistical_test]
+significance = 0.05
